@@ -1,4 +1,5 @@
 body {
+  background-color: orange;
   font-size: 16px;
   line-height: 22px;
   color: #323232;
@@ -18,4 +19,99 @@ h2 {
   color: #ffffff;
   font-weight: bold;
   font-family: 'Roboto'sans-serif;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #aacab8;
+}
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation {
+  width: 340px;
+  background-color: green;
+}
+.user-block {
+  width: 300px;
+  background-color: green;
+}
+.main-header {
+  margin-bottom: 20px;
+}
+.index-logo {
+  width: 154px;
+  min-height: 54px;
+  background-color: green;
+}
+.slider {
+  width: 860px;
+  height: 570px;
+  margin: 0 auto;
+  background-color: green;
+}
+.banners {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: green;
+}
+.hits li{
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: green;
+}
+.SEO {
+  display: inline-block;
+  margin-left: 0;
+  background-color: green;
+  margin-bottom: 20px;
+}
+.SEO span {
+  width: 420px;
+  display: inline-block;
+}
+.center-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.news-blog {
+  width: 420px;
+  background-color: green;
+}
+.destribution {
+  width: 420px;
+  background-color: green;
+}
+.map {
+  width: 860px;
+  display: inline-block;
+  background-color: green;
+}
+.main-footer .container {
+background-color: red;
+}
+.main-footer-layout {
+  display: flex;
+}
+.footer-social {
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 35px;
+  background-color: green;
+}
+.footer-menu {
+  width: 420px;
+  margin-right: 20px;
+  margin-top: 35px;
+  background-color: green;
+}
+.footer-copyright {
+  width: 200px;
+  margin-top: 35px;
+  background-color: green;
 }
