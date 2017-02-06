@@ -115,3 +115,32 @@ background-color: red;
   margin-top: 35px;
   background-color: green;
 }
+
+/*Каталог*/
+.second-nav li{
+  display: inline-block;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  margin-bottom: 20px;
+}
+.items {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: green;
+}
+.items article {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.pages {
+  margin-left: 700px;
+}
+.pages li {
+  display: inline-block;
+}
