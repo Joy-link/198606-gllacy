@@ -172,7 +172,7 @@ body > input[type="radio"] {
 }
 /*Слайдер*/
 .site_wrapper {
-  min-width: 940px;
+  min-width: 900px;
   background-repeat: no-repeat;
   background-position: top center;
   transition: background-image 0.5s ease, background-color 0.5s ease;
@@ -190,8 +190,9 @@ body > input[type="radio"] {
 }
 .slider {
   width: 860px;
+  min-height: 240px;
   position: relative;
-  padding-top: 270px;
+  padding-top: 330px;
   text-align: center;
   color: #ffffff;
 }
@@ -201,8 +202,8 @@ body > input[type="radio"] {
 .slide_title {
   width: 700px;
   margin: 0 auto;
-  margin-bottom: 30px;
-  font-weight: 800;
+  margin-bottom: 100px;
+  font-weight: bold;
   font-size: 60px;
 }
 .slide_btn {
@@ -243,7 +244,7 @@ body > input[type="radio"] {
 
   font-size: 0;
 }
-.slide_controls label {
+.slider_controls label {
   display: inline-block;
   width: 17px;
   height: 17px;
@@ -262,21 +263,25 @@ body > input[type="radio"] {
 #btn_3:checked ~ .site_wrapper #slide3 {
   display: block;
 }
+
 #btn_1:checked ~ .site_wrapper {
   background-color: #849d8f;
-  background-image: url(../img/slide_1.png);
+  background-image: url("../img/slide_1.png");
 }
+
 #btn_2:checked ~ .site_wrapper {
-  background-color: #849d8f;
-  background-image: url(../img/slide_2.png);
+  background-color: #8996a6;
+  background-image: url("../img/slide_2.png");
 }
+
 #btn_3:checked ~ .site_wrapper {
-  background-color: #849d8f;
-  background-image: url(../img/slide_3.png);
+  background-color: #9d8b84;
+  background-image: url("../img/slide_3.png");
 }
+
 #btn_1:checked ~ .site_wrapper label[for="btn_1"],
 #btn_2:checked ~ .site_wrapper label[for="btn_2"],
-#btn_2:checked ~ .site_wrapper label[for="btn_3"] {
+#btn_3:checked ~ .site_wrapper label[for="btn_3"] {
   background-color: #ffffff;
 }
 /*Баннеры*/
